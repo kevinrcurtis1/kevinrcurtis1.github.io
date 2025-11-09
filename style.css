@@ -1,11 +1,11 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f8f9fa;
+  background: linear-gradient(to right, #e0f7fa, #e1bee7);
   color: #212529;
 }
 h1 {
-  color: #0d6efd;
+  color: #6a1b9a;
   margin-bottom: 20px;
 }
 p {
@@ -13,11 +13,20 @@ p {
 }
 .navbar {
   margin-bottom: 30px;
+  background: linear-gradient(to right, #6a1b9a, #283593);
+}
+.navbar-brand, .nav-link {
+  color: #fff !important;
 }
 .card {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: #ffffff;
 }
 footer {
-  background-color: #343a40;
+  background-color: #283593;
   color: white;
+}
+.btn-primary {
+  background-color: #6a1b9a;
+  border: none;
 }
